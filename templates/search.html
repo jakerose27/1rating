@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<form action="/search" method="POST">
+    <input type="text" placeholder="Search Text" name="search"></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+<h2>{{ search_title }}</h2>
+<h3>{{ rating }}</h3>
+<iframe src={{ iframe_url }} width="100%" height="500px"></iframe>
+</body>
+</html>
